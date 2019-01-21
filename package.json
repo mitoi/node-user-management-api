@@ -1,0 +1,24 @@
+{
+  "name": "user-management-api",
+  "version": "1.0.0",
+  "description": "NodeJs, MongoDB user management api, to be used in web applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitoi/node-user-management-api.git"
+  },
+  "author": "Cristinel Mitoi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mitoi/node-user-management-api/issues"
+  },
+  "homepage": "https://github.com/mitoi/node-user-management-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  }
+}
