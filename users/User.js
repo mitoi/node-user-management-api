@@ -1,4 +1,14 @@
+/**
+ * The User class.
+ * It takes care of the userModel and the routes associated tot the user
+ */
 class User{
+    /**
+     * @function getRoutes
+     * @static
+     * This function returns all the routes associated to the user.
+     * @returns <express.Router> router
+     */
     static getRoutes(){
         const express = require('express');
         const router = express.Router();
@@ -12,7 +22,7 @@ class User{
         router.delete('/:id', User.remove);
         return router;
     }
-
+    
     static login(req, res){
         console.log("Logging in...");
         res.json({success:true});

@@ -1,3 +1,8 @@
+/**
+ * Entrypoint into the api.
+ * It configures middleware, binds routes, and starts the web server
+ */
+
 const express = require('express');
 const app = express();
 const cors = require('cors');
