@@ -1,0 +1,4 @@
+{
+    "connectionString": "mongodb://localhost/node-user-management-api",
+    "secret": "A0000BCD"
+}
